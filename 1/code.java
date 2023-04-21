@@ -1,3 +1,10 @@
+/*
+  Copyright 2023 tnq95, All Rights Reserved.
+  Email: ngocquynh5995@gmail.com
+ */
+
+
+
 
 String HistoryDeviceName = Sys.getHostName();
 String thisStationName = Sys.getStation().getStationName(); 
