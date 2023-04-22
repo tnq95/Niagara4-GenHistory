@@ -1,0 +1,22 @@
+/* Module Build File */
+description     = "description"
+niagaraModule {
+  preferredSymbol = "genHistory"
+  moduleName      = "genHistory"
+  runtimeProfile  = "rt"
+  certAlias  = "newcf"
+}
+
+dependencies {
+  compile "Tridium:baja:4.9"
+  compile "Tridium:history-rt:4.9"
+  compile "Tridium:nre:4.9"
+  compile "Tridium:program-rt:4.9"
+  compile "Tridium:control-rt:4.9"
+  compile "Tridium:bql-rt:4.9"
+}
+
+moduleTestJar {
+  from('srcTest') {
+  }
+}
