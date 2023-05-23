@@ -172,6 +172,8 @@ public class BGenHistory
           
           jg.setEnabled(false);
           //jg2.setRecordType(typespec);
+          //BHistoryRecord lastRecord = jg.getLastRecord();
+          //System.out.println(lastRecord.get("value"));
           jg2.setCapacity(getHistoryConfig().getCapacity());
           jg2.setInterval(BCollectionInterval.make(getInterval()));
           
